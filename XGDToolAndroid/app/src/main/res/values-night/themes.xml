@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Same theme, but status/nav bar icons must be light-on-dark at night
+         (the base theme's windowLightStatusBar=true would otherwise render
+         dark icons on our near-black dark background, making them invisible). -->
+    <style name="Theme.XGDToolAndroid" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/xgd_green_primary</item>
+        <item name="colorOnPrimary">@color/xgd_on_green_primary</item>
+        <item name="colorPrimaryContainer">@color/xgd_green_container</item>
+        <item name="colorOnPrimaryContainer">@color/xgd_green_on_container</item>
+
+        <item name="colorSecondary">@color/xgd_green_secondary</item>
+        <item name="colorOnSecondary">@color/xgd_white</item>
+        <item name="colorSecondaryContainer">@color/xgd_green_container</item>
+        <item name="colorOnSecondaryContainer">@color/xgd_green_on_container</item>
+
+        <item name="colorTertiary">@color/xgd_green_neon</item>
+        <item name="colorOnTertiary">@color/xgd_on_green_primary</item>
+
+        <item name="android:colorBackground">@color/xgd_background</item>
+        <item name="colorSurface">@color/xgd_surface</item>
+        <item name="colorSurfaceVariant">@color/xgd_surface_variant</item>
+        <item name="colorOnBackground">@color/xgd_on_background</item>
+        <item name="colorOnSurface">@color/xgd_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/xgd_on_surface_variant</item>
+        <item name="colorOutline">@color/xgd_outline</item>
+
+        <item name="colorError">@color/xgd_error</item>
+        <item name="colorOnError">@color/xgd_on_error</item>
+
+        <item name="android:statusBarColor">@color/xgd_background</item>
+        <item name="android:navigationBarColor">@color/xgd_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+
+        <item name="materialButtonStyle">@style/Widget.XGDToolAndroid.Button</item>
+        <item name="toolbarStyle">@style/Widget.XGDToolAndroid.Toolbar</item>
+    </style>
+
+</resources>

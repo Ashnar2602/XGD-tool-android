@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Xbox-inspired neon green palette — light theme -->
+    <color name="xgd_green_neon">#39FF14</color>
+    <color name="xgd_green_primary">#16A312</color>
+    <color name="xgd_green_primary_dark">#0E7A0C</color>
+    <color name="xgd_green_container">#D3F8CE</color>
+    <color name="xgd_green_on_container">#053D07</color>
+    <color name="xgd_green_secondary">#2E7D32</color>
+    <color name="xgd_on_green_primary">#FFFFFF</color>
+
+    <color name="xgd_background">#F7FBF5</color>
+    <color name="xgd_surface">#FFFFFF</color>
+    <color name="xgd_surface_variant">#E7F3E3</color>
+    <color name="xgd_outline">#B9C9B4</color>
+
+    <color name="xgd_on_background">#101410</color>
+    <color name="xgd_on_surface">#101410</color>
+    <color name="xgd_on_surface_variant">#40493E</color>
+
+    <color name="xgd_error">#BA1A1A</color>
+    <color name="xgd_on_error">#FFFFFF</color>
+
+    <color name="xgd_log_bg">#0B120B</color>
+    <color name="xgd_log_text">#7CFC6E</color>
+
+    <color name="xgd_white">#FFFFFF</color>
+    <color name="xgd_black">#000000</color>
+
+    <color name="ic_launcher_background">#0A0F0A</color>
+</resources>

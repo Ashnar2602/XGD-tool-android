@@ -1,0 +1,16 @@
+# Android / Gradle build artifacts
+XGDToolAndroid/app/build/
+XGDToolAndroid/build/
+XGDToolAndroid/.gradle/
+XGDToolAndroid/.kotlin/
+XGDToolAndroid/local.properties
+XGDToolAndroid/.idea/
+XGDToolAndroid/*.iml
+
+# Native build artifacts
+XGDTool/android/build/
+
+# vcpkg (Windows-only build dependency of upstream XGDTool, huge, unused by the Android build)
+XGDTool/external/vcpkg/
+
+.DS_Store

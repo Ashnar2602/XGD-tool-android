@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.XGDToolAndroid" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/xgd_green_primary</item>
+        <item name="colorOnPrimary">@color/xgd_on_green_primary</item>
+        <item name="colorPrimaryContainer">@color/xgd_green_container</item>
+        <item name="colorOnPrimaryContainer">@color/xgd_green_on_container</item>
+
+        <item name="colorSecondary">@color/xgd_green_secondary</item>
+        <item name="colorOnSecondary">@color/xgd_white</item>
+        <item name="colorSecondaryContainer">@color/xgd_green_container</item>
+        <item name="colorOnSecondaryContainer">@color/xgd_green_on_container</item>
+
+        <item name="colorTertiary">@color/xgd_green_neon</item>
+        <item name="colorOnTertiary">@color/xgd_on_green_primary</item>
+
+        <item name="android:colorBackground">@color/xgd_background</item>
+        <item name="colorSurface">@color/xgd_surface</item>
+        <item name="colorSurfaceVariant">@color/xgd_surface_variant</item>
+        <item name="colorOnBackground">@color/xgd_on_background</item>
+        <item name="colorOnSurface">@color/xgd_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/xgd_on_surface_variant</item>
+        <item name="colorOutline">@color/xgd_outline</item>
+
+        <item name="colorError">@color/xgd_error</item>
+        <item name="colorOnError">@color/xgd_on_error</item>
+
+        <item name="android:statusBarColor">@color/xgd_background</item>
+        <item name="android:navigationBarColor">@color/xgd_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+
+        <item name="materialButtonStyle">@style/Widget.XGDToolAndroid.Button</item>
+        <item name="toolbarStyle">@style/Widget.XGDToolAndroid.Toolbar</item>
+    </style>
+
+    <style name="Widget.XGDToolAndroid.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="Widget.XGDToolAndroid.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="cornerRadius">14dp</item>
+    </style>
+
+    <style name="Widget.XGDToolAndroid.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/xgd_background</item>
+        <item name="titleTextColor">@color/xgd_on_background</item>
+        <item name="subtitleTextColor">@color/xgd_on_surface_variant</item>
+    </style>
+
+    <style name="TextAppearance.XGDToolAndroid.SectionTitle" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">@color/xgd_green_primary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <style name="TextAppearance.XGDToolAndroid.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/xgd_on_surface_variant</item>
+    </style>
+
+    <style name="Widget.XGDToolAndroid.CardView" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">18dp</item>
+        <item name="strokeColor">@color/xgd_outline</item>
+        <item name="cardBackgroundColor">@color/xgd_surface</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <style name="Widget.XGDToolAndroid.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_background_selector</item>
+        <item name="android:textColor">@color/chip_text_selector</item>
+        <item name="checkedIconVisible">false</item>
+    </style>
+
+</resources>

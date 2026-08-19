@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XGDTool</string>
+    <string name="app_subtitle">Xbox / Xbox 360 镜像转换工具</string>
+
+    <string name="section_input">源文件</string>
+    <string name="section_output">目标位置</string>
+    <string name="section_options">转换选项</string>
+    <string name="section_progress">进度</string>
+    <string name="section_log">日志</string>
+
+    <string name="input_summary_none">未选择文件</string>
+    <plurals name="input_files_selected">
+        <item quantity="other">已选择 %d 个文件</item>
+    </plurals>
+    <string name="btn_select_files">选择要转换的 ISO/XISO</string>
+
+    <string name="output_summary_none">未选择目标文件夹</string>
+    <string name="output_summary_set">目标位置：%1$s</string>
+    <string name="btn_select_output">选择目标文件夹</string>
+
+    <string name="format_zar">ZAR</string>
+    <string name="format_god">GOD</string>
+    <string name="format_cci">CCI</string>
+    <string name="format_cso">CSO</string>
+    <string name="format_description">ZAR：通用压缩存档 · GOD：Xbox 360 的 Games on Demand 格式 · CCI/CSO：模拟器专用压缩格式</string>
+    <string name="checkbox_offline">离线模式（不进行在线标题查询）</string>
+
+    <string name="btn_convert">开始转换</string>
+    <string name="btn_cancel">取消</string>
+
+    <string name="phase_waiting">等待中</string>
+    <string name="error_no_input">请至少选择一个要转换的文件。</string>
+    <string name="error_no_output">请选择目标文件夹。</string>
+    <string name="queue_progress">第 %1$d / %2$d 个文件 — %3$s</string>
+    <string name="finished_cancelled">已取消</string>
+    <plurals name="finished_success">
+        <item quantity="other">已完成：成功 %d 个</item>
+    </plurals>
+    <string name="finished_partial">已完成：成功 %1$d 个，失败 %2$d 个</string>
+
+    <string name="notif_starting">正在开始转换…</string>
+    <string name="notif_channel_name">转换</string>
+    <string name="notif_copy">正在复制 %s</string>
+    <string name="notif_convert">正在转换 %s</string>
+    <string name="notif_write">正在写入 %s</string>
+
+    <string name="phase_copy_label">[1/3] 本地复制 — %s</string>
+    <string name="log_copy_start">&gt;&gt; [1/3] 正在将 %1$s 复制到本地缓存（%2$s）…</string>
+    <string name="log_copy_done">[1/3] 本地复制完成（%s）。</string>
+    <string name="log_copy_error">[1/3] 复制输入文件 %1$s 时出错：%2$s</string>
+    <string name="error_copy_incomplete">复制不完整：预期 %1$s，实际写入 %2$s（源数据流提前关闭）</string>
+    <string name="error_input_stream_null">openInputStream 返回了 null</string>
+
+    <string name="phase_convert_label">[2/3] 转换中 — 网络检测 / 标题查询 / 写入…</string>
+    <string name="phase_convert_writing_label">[2/3] 转换中 — 正在写入数据…</string>
+    <string name="log_engine_start">[2/3] 正在启动原生引擎（连接检测最长 5 秒，若非离线模式则在线标题查询最长 15 秒，随后写入数据）…</string>
+    <string name="log_engine_done">[2/3] 原生引擎已结束：%1$s（代码 %2$d）</string>
+    <string name="result_ok">成功</string>
+    <string name="result_cancelled">已取消</string>
+    <string name="result_error">错误</string>
+
+    <string name="phase_write_label">[3/3] 写入输出 — 正在复制到所选文件夹…</string>
+    <string name="log_write_done">[3/3] 输出写入完成。</string>
+    <string name="log_write_no_output">[3/3] 错误：转换后未找到任何输出文件。</string>
+    <string name="log_cancelled_by_user">已被用户取消。</string>
+    <string name="log_write_error_dir">[3/3] 错误：无法在目标位置创建文件夹“%s”。</string>
+    <string name="log_write_error_file">[3/3] 错误：无法在目标位置创建文件“%s”。</string>
+    <string name="log_write_error_stream">[3/3] 错误：无法在目标位置以写入模式打开“%s”。</string>
+    <string name="log_write_error_partial">[3/3] 错误：“%1$s”仅部分写入（%2$s / %3$s）。</string>
+
+    <string name="bytes_unknown">大小未知</string>
+</resources>

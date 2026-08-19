@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XGDTool</string>
+    <string name="app_subtitle">Convertitore immagini Xbox / Xbox 360</string>
+
+    <!-- Sections -->
+    <string name="section_input">Sorgente</string>
+    <string name="section_output">Destinazione</string>
+    <string name="section_options">Opzioni di conversione</string>
+    <string name="section_progress">Avanzamento</string>
+    <string name="section_log">Registro</string>
+
+    <!-- Input -->
+    <string name="input_summary_none">Nessun file selezionato</string>
+    <plurals name="input_files_selected">
+        <item quantity="one">%d file selezionato</item>
+        <item quantity="other">%d file selezionati</item>
+    </plurals>
+    <string name="btn_select_files">Seleziona ISO/XISO da convertire</string>
+
+    <!-- Output -->
+    <string name="output_summary_none">Nessuna cartella di destinazione selezionata</string>
+    <string name="output_summary_set">Destinazione: %1$s</string>
+    <string name="btn_select_output">Seleziona cartella di destinazione</string>
+
+    <!-- Format options -->
+    <string name="format_zar">ZAR</string>
+    <string name="format_god">GOD</string>
+    <string name="format_cci">CCI</string>
+    <string name="format_cso">CSO</string>
+    <string name="format_description">ZAR: archivio universale compresso · GOD: Games on Demand per Xbox 360 · CCI/CSO: formati compressi per emulatori</string>
+    <string name="checkbox_offline">Modalità offline (nessuna ricerca titoli online)</string>
+
+    <!-- Actions -->
+    <string name="btn_convert">Converti</string>
+    <string name="btn_cancel">Annulla</string>
+
+    <!-- Status / phases -->
+    <string name="phase_waiting">In attesa</string>
+    <string name="error_no_input">Seleziona almeno un file da convertire.</string>
+    <string name="error_no_output">Seleziona una cartella di destinazione.</string>
+    <string name="queue_progress">File %1$d di %2$d — %3$s</string>
+    <string name="finished_cancelled">Annullato</string>
+    <plurals name="finished_success">
+        <item quantity="one">Completato: %d riuscito</item>
+        <item quantity="other">Completato: %d riusciti</item>
+    </plurals>
+    <string name="finished_partial">Completato: %1$d riusciti, %2$d falliti</string>
+
+    <!-- Notifications -->
+    <string name="notif_starting">Avvio conversione…</string>
+    <string name="notif_channel_name">Conversione</string>
+    <string name="notif_copy">Copia %s</string>
+    <string name="notif_convert">Conversione %s</string>
+    <string name="notif_write">Scrittura %s</string>
+
+    <!-- Phase 1: copy input -->
+    <string name="phase_copy_label">[1/3] Copia locale — %s</string>
+    <string name="log_copy_start">&gt;&gt; [1/3] Copio %1$s nella cache locale (%2$s)…</string>
+    <string name="log_copy_done">[1/3] Copia locale completata (%s).</string>
+    <string name="log_copy_error">[1/3] ERRORE copia input %1$s: %2$s</string>
+    <string name="error_copy_incomplete">copia incompleta: attesi %1$s, scritti %2$s (lo stream sorgente si è chiuso prima del previsto)</string>
+    <string name="error_input_stream_null">openInputStream ha restituito null</string>
+
+    <!-- Phase 2: native conversion -->
+    <string name="phase_convert_label">[2/3] Conversione — verifica rete / ricerca titolo / scrittura…</string>
+    <string name="phase_convert_writing_label">[2/3] Conversione — scrittura dati…</string>
+    <string name="log_engine_start">[2/3] Avvio motore nativo (verifica connessione max 5s, ricerca titolo online max 15s se non offline, poi scrittura)…</string>
+    <string name="log_engine_done">[2/3] Motore nativo terminato: %1$s (codice %2$d)</string>
+    <string name="result_ok">OK</string>
+    <string name="result_cancelled">ANNULLATO</string>
+    <string name="result_error">ERRORE</string>
+
+    <!-- Phase 3: write output -->
+    <string name="phase_write_label">[3/3] Scrittura output — copia nella cartella scelta…</string>
+    <string name="log_write_done">[3/3] Scrittura output completata.</string>
+    <string name="log_write_no_output">[3/3] ERRORE: nessun file di output trovato dopo la conversione.</string>
+    <string name="log_cancelled_by_user">Annullato dall\'utente.</string>
+    <string name="log_write_error_dir">[3/3] ERRORE: impossibile creare la cartella \'%s\' nella destinazione.</string>
+    <string name="log_write_error_file">[3/3] ERRORE: impossibile creare il file \'%s\' nella destinazione.</string>
+    <string name="log_write_error_stream">[3/3] ERRORE: impossibile aprire in scrittura \'%s\' nella destinazione.</string>
+    <string name="log_write_error_partial">[3/3] ERRORE: \'%1$s\' scritto solo parzialmente (%2$s di %3$s).</string>
+
+    <string name="bytes_unknown">dimensione sconosciuta</string>
+</resources>

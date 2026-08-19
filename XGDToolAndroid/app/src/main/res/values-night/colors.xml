@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Xbox-inspired neon green palette — dark theme: near-black with a glowing neon accent -->
+    <color name="xgd_green_neon">#39FF14</color>
+    <color name="xgd_green_primary">#39FF14</color>
+    <color name="xgd_green_primary_dark">#7CFC6E</color>
+    <color name="xgd_green_container">#0E3A0E</color>
+    <color name="xgd_green_on_container">#B9FFB0</color>
+    <color name="xgd_green_secondary">#6CC24A</color>
+    <color name="xgd_on_green_primary">#04210A</color>
+
+    <color name="xgd_background">#0A0F0A</color>
+    <color name="xgd_surface">#141B14</color>
+    <color name="xgd_surface_variant">#1D261D</color>
+    <color name="xgd_outline">#3A4A38</color>
+
+    <color name="xgd_on_background">#E7F3E3</color>
+    <color name="xgd_on_surface">#E7F3E3</color>
+    <color name="xgd_on_surface_variant">#B7C6B2</color>
+
+    <color name="xgd_error">#FFB4AB</color>
+    <color name="xgd_on_error">#680003</color>
+
+    <color name="xgd_log_bg">#05080B</color>
+    <color name="xgd_log_text">#39FF14</color>
+
+    <color name="xgd_white">#FFFFFF</color>
+    <color name="xgd_black">#000000</color>
+</resources>
