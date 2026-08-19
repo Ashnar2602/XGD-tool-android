@@ -4,6 +4,3 @@
 [submodule "external/ZArchive"]
 	path = external/ZArchive
 	url = https://github.com/Exzap/ZArchive.git
-[submodule "external/vcpkg"]
-	path = external/vcpkg
-	url = https://github.com/microsoft/vcpkg.git

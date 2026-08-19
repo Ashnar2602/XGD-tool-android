@@ -25,7 +25,9 @@ add_subdirectory(${REPO_ROOT}/external/ZArchive ${CMAKE_CURRENT_BINARY_DIR}/zarc
 
 set(CORE_SRC
     ${SRC_DIR}/XGDException.cpp
-    # XGDLog.cpp intentionally excluded: android-src/XGDLog_JNI.cpp replaces it
+    # Upstream's XGDLog.cpp (desktop CLI/wxWidgets sink) was removed along
+    # with the rest of the desktop build; android-src/XGDLog_JNI.cpp is the
+    # only XGDLog sink implementation in this Android-only fork.
 
     ${SRC_DIR}/InputHelper/InputHelper.cpp
     ${SRC_DIR}/InputHelper/InputHelper_FS.cpp

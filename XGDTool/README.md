@@ -1,4 +1,12 @@
 # XGDTool
+
+> **Note:** this checkout is the Android-only fork used by
+> [XGD-tool-android](../../..). The upstream desktop CLI/GUI targets
+> (`CMakeLists.txt`, `src/main.cpp`, `src/GUI/`) have been removed here to
+> keep this repo purely Android — see the top-level
+> [README](../README.md) for the app itself. For the original desktop
+> project, see [wiredopposite/XGDTool](https://github.com/wiredopposite/XGDTool).
+
 <img src="https://github.com/wiredopposite/XGDTool/blob/master/resources/Screenshot.png" alt="App" width="700"/>
 
 XGDTool is an OG Xbox and Xbox 360 disc utility, capable of converting discs to and from any mainstream format. It's available as a GUI or CLI app.
