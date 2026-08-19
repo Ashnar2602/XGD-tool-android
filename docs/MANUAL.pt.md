@@ -32,7 +32,8 @@ O XGDTool para Android traz o núcleo em C++ do
 motor de conversão usado no PC — diretamente para o telemóvel, para
 converter imagens de disco Xbox e Xbox 360 (ISO, XISO reduzida) em
 formatos mais compactos ou compatíveis com emuladores (**ZAR**, **GOD**,
-**CCI**, **CSO**), sem precisar de um computador.
+**CCI**, **CSO**), ou novamente para um simples **XISO**, sem precisar
+de um computador.
 
 A interface gráfica original (wxWidgets) não é portável para Android,
 por isso foi substituída por uma app em Kotlin que comunica com o mesmo
@@ -137,6 +138,7 @@ falhou.
 | **GOD** | *Games on Demand* — formato nativo usado pela Xbox 360 e por vários front-ends/configurações RGH. |
 | **CCI** | Formato comprimido pensado para emuladores da Xbox original. |
 | **CSO** | Formato comprimido, alternativa ao CCI suportada por vários emuladores. |
+| **XISO** | Imagem de disco Xbox padrão, não comprimida — o mesmo formato usado como origem, pelo que qualquer entrada suportada (ZAR, GOD, CCI, CSO) pode ser convertida de volta para XISO, por exemplo para uso em hardware original. |
 
 ## Como funciona internamente
 

@@ -16,7 +16,7 @@
 
 [XGDTool](https://github.com/wiredopposite/XGDTool)（GPL-3.0 协议）的非官方
 Android 移植版：直接在手机上将 Xbox / Xbox 360 光盘镜像（ISO、精简版
-XISO）转换为 **ZAR**、**GOD**、**CCI**、**CSO** 格式，无需借助电脑即可
+XISO）转换为 **ZAR**、**GOD**、**CCI**、**CSO**、**XISO** 格式，无需借助电脑即可
 备份你的实体游戏收藏。
 
 <p align="center">

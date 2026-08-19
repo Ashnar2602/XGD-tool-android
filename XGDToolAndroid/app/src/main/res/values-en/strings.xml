@@ -24,7 +24,8 @@
     <string name="format_god">GOD</string>
     <string name="format_cci">CCI</string>
     <string name="format_cso">CSO</string>
-    <string name="format_description">ZAR: universal compressed archive · GOD: Games on Demand for Xbox 360 · CCI/CSO: compressed formats for emulators</string>
+    <string name="format_iso">XISO</string>
+    <string name="format_description">ZAR: universal compressed archive · GOD: Games on Demand for Xbox 360 · CCI/CSO: compressed formats for emulators · XISO: standard uncompressed Xbox disc image</string>
     <string name="checkbox_offline">Offline mode (no online title lookup)</string>
 
     <string name="btn_convert">Convert</string>

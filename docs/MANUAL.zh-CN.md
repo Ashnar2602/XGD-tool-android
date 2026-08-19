@@ -30,7 +30,8 @@
 XGDTool Android 版将 [XGDTool](https://github.com/wiredopposite/XGDTool)
 （GPL-3.0 协议）的 C++ 核心 —— 与 PC 版相同的转换引擎 —— 直接带到手机上，
 用于将 Xbox 和 Xbox 360 光盘镜像（ISO、精简版 XISO）转换为更紧凑或与模拟
-器兼容的格式（**ZAR**、**GOD**、**CCI**、**CSO**），完全无需借助电脑。
+器兼容的格式（**ZAR**、**GOD**、**CCI**、**CSO**），或转换回普通的
+**XISO**，完全无需借助电脑。
 
 原始的图形界面（基于 wxWidgets）无法移植到 Android，因此被替换为一个通
 过 JNI 与同一 C++ 核心通信的 Kotlin 应用。
@@ -114,6 +115,7 @@ Android 的 Storage Access Framework：你可以从手机可见的任何存储�
 | **GOD** | *Games on Demand* —— Xbox 360 及多种前端/RGH 方案使用的原生格式。 |
 | **CCI** | 专为初代 Xbox 模拟器设计的压缩格式。 |
 | **CSO** | 压缩格式，是多种模拟器都支持的 CCI 替代方案。 |
+| **XISO** | 未压缩的标准 Xbox 光盘镜像 —— 与输入所用的格式相同，因此任何受支持的输入（ZAR、GOD、CCI、CSO）都可以转换回 XISO，例如用于原生硬件。 |
 
 ## 内部工作原理
 

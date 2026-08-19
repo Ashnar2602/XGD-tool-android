@@ -16,7 +16,7 @@
 
 Port não oficial do [XGDTool](https://github.com/wiredopposite/XGDTool)
 (GPL-3.0) para Android: converte imagens de disco Xbox / Xbox 360 (ISO,
-XISO reduzida) para os formatos **ZAR**, **GOD**, **CCI** e **CSO**
+XISO reduzida) para os formatos **ZAR**, **GOD**, **CCI**, **CSO** e **XISO**
 diretamente a partir do telemóvel, para fazer cópia de segurança da tua
 coleção física sem precisar de um PC.
 

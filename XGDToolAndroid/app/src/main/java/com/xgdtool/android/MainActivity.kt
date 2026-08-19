@@ -112,6 +112,7 @@ class MainActivity : AppCompatActivity(), ConvertServiceListener {
             binding.formatGod.id -> XgdNative.FORMAT_GOD
             binding.formatCci.id -> XgdNative.FORMAT_CCI
             binding.formatCso.id -> XgdNative.FORMAT_CSO
+            binding.formatIso.id -> XgdNative.FORMAT_ISO
             else -> XgdNative.FORMAT_ZAR
         }
         val offline = binding.checkOffline.isChecked

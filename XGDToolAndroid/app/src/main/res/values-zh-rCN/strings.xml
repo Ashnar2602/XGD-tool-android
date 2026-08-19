@@ -23,7 +23,8 @@
     <string name="format_god">GOD</string>
     <string name="format_cci">CCI</string>
     <string name="format_cso">CSO</string>
-    <string name="format_description">ZAR：通用压缩存档 · GOD：Xbox 360 的 Games on Demand 格式 · CCI/CSO：模拟器专用压缩格式</string>
+    <string name="format_iso">XISO</string>
+    <string name="format_description">ZAR：通用压缩存档 · GOD：Xbox 360 的 Games on Demand 格式 · CCI/CSO：模拟器专用压缩格式 · XISO：未压缩的标准 Xbox 光盘镜像</string>
     <string name="checkbox_offline">离线模式（不进行在线标题查询）</string>
 
     <string name="btn_convert">开始转换</string>
