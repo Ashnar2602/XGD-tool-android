@@ -1,3 +1,18 @@
+# ⚠️ REPOSITORY OBSOLETA E SPOSTATA — PROGETTO UNIFICATO
+
+> ### 🛑 Questo repository è ARCHIVIATO
+> **Lo sviluppo di questo repository standalone è terminato. L'applicazione Android è stata interamente unificata nel repository principale:**
+> 
+> 👉 **[https://github.com/Ashnar2602/XGDTool](https://github.com/Ashnar2602/XGDTool)**
+> 
+> **Novità e vantaggi del repository principale:**
+> * ⚡ **Motore Zero-Copy**: Conversione diretta su disco senza consumare 15–20 GB di cache temporanea.
+> * 🚀 **Progetto Unico e Completo**: App Android nativa (Material 3 Neon Dark) + versioni Windows GUI e CLI.
+> * 🛠️ **Correzioni e Ottimizzazioni**: Fix critico per ZAR ➔ ISO, streaming checksum a costo zero e multithreading avanzato.
+> * 📦 **Download dell'APK aggiornato (v1.3.1+)**: [Ashnar2602/XGDTool Releases](https://github.com/Ashnar2602/XGDTool/releases)
+
+---
+
 <p align="center">
   <img src="docs/assets/logo.png" alt="XGDTool Android" width="220">
 </p>
@@ -12,7 +27,7 @@
   <a href="README.zh-CN.md">🇨🇳 简体中文</a>
 </p>
 
-# XGDTool per Android
+# XGDTool per Android (Archiviato)
 
 Porting non ufficiale di [XGDTool](https://github.com/wiredopposite/XGDTool)
 (GPL-3.0) su Android: converte immagini disco Xbox / Xbox 360 (ISO, XISO
@@ -41,35 +56,8 @@ passare da un PC.
 - Gira come servizio in primo piano: puoi uscire dall'app durante una
   conversione lunga senza interromperla.
 
-## Requisiti
+## Dove trovare le nuove versioni
 
-- Android 8.0 (API 26) o superiore, architettura **arm64-v8a**.
-- Spazio libero pari ad almeno 2× la dimensione del gioco più grande
-  della tua collezione.
-
-## Installazione
-
-Vai su [Releases](../../releases) di questa repo, scarica l'ultimo
-`XGDTool-android-debug.apk` e installalo sul telefono (serve abilitare
-"Installa app sconosciute"). Per la guida d'uso completa e la risoluzione
-problemi vedi [docs/MANUAL.it.md](docs/MANUAL.it.md).
-
-## Build da sorgente
-
-Richiede Android NDK r27, Android SDK (platform 34), Gradle 8.7+, JDK 17+.
-Istruzioni complete in [docs/MANUAL.it.md](docs/MANUAL.it.md#ricompilare-da-zero).
-
-## Avviso
-
-Progetto amatoriale, non affiliato né sponsorizzato da Microsoft. "Xbox"
-è un marchio registrato dei rispettivi proprietari, usato qui solo a
-scopo descrittivo. Pensato per il backup personale di dischi posseduti
-legalmente.
-
-## Licenza
-
-Il core XGDTool è GPL-3.0 — vedi [LICENSE](LICENSE). Componenti di terze
-parti integrate nel core sono elencate in
-[XGDTool/ATTRIBUTION.md](XGDTool/ATTRIBUTION.md). Se condividi
-pubblicamente una versione modificata, la GPL-3.0 richiede di rendere
-disponibile anche il sorgente modificato.
+**Non scaricare i vecchi APK da questo repository archiviato.**
+Scarica le release ufficiali aggiornate direttamente da:
+👉 **[https://github.com/Ashnar2602/XGDTool/releases](https://github.com/Ashnar2602/XGDTool/releases)**
